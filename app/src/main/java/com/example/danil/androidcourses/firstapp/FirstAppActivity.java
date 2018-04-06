@@ -21,16 +21,13 @@ public class FirstAppActivity extends AppCompatActivity {
         Button btnChange1 = (Button) findViewById(R.id.btn_change_1);
 
         btnChange1.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                textChanget.setText("You clicked button 1");
+                textChanget.setText(R.string.txt_btn_afterclick1);
             }
         });
     }
-
-    @SuppressLint("SetTextI18n")
     public void doSomething(View view){
-        textChanget.setText("You clicked button 2");
+        textChanget.setText(R.string.txt_btn_afterclick2);
     }
 }

@@ -5,4 +5,6 @@
     <string name="text_changed_text">Your Text</string>
     <string name="btn_change_1">Change 1</string>
     <string name="btn_change_2">Change 2</string>
+    <string name="txt_btn_afterclick1">You clicked button 1</string>
+    <string name="txt_btn_afterclick2">You clicked button 2</string>
 </resources>

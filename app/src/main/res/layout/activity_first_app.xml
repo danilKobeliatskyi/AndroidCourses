@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.140" />
 
     <Button
-        android:id="@+id/btn_change_1"
+        android:id="@+id/btn_change_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/btn_margin_start"
@@ -44,7 +44,7 @@
         android:layout_marginLeft="@dimen/btn_margin_start" />
 
     <Button
-        android:id="@+id/btn_change_2"
+        android:id="@+id/btn_change_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/btn_margin_start"
@@ -52,7 +52,7 @@
         android:onClick="doSomething"
         android:text="@string/btn_change_2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_change_1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_change_text1"
         android:layout_marginLeft="@dimen/btn_margin_start" />
 
 </android.support.constraint.ConstraintLayout>
