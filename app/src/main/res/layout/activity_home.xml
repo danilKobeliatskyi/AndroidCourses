@@ -10,4 +10,11 @@
         android:text="@string/txt_btn_task1"
         android:onClick="onTask1Click"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn_task2"
+        android:onClick="onTask2Click"/>
+
+
 </LinearLayout>

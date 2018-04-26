@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/text_title"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/height_title"
+        android:layout_height="@dimen/height_title_first_app"
         android:text="@string/text_title"
         android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="height_title">43dp</dimen>
+    <dimen name="height_title_first_app">43dp</dimen>
     <dimen name="text_size">30sp</dimen>
     <dimen name="btn_margin">25dp</dimen>
     <dimen name="btn_margin_start">146dp</dimen>
+    <dimen name="text_size_title_text_view">30sp</dimen>
+    <dimen name="height_scroll">200dp</dimen>
+    <dimen name="scroll_margin_top">40dp</dimen>
+    <dimen name="text_scroll_size">24sp</dimen>
 </resources>

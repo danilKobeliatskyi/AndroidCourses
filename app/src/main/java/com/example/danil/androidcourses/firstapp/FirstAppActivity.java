@@ -1,6 +1,5 @@
 package com.example.danil.androidcourses.firstapp;
 
-import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
