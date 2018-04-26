@@ -18,6 +18,9 @@
         </activity>
 
         <activity android:name=".firstapp.FirstAppActivity"/>
+
+        <activity android:name=".textviewandscrollview.TextVieActivity"/>
+
     </application>
 
 </manifest>

@@ -5,9 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.danil.androidcourses.R;
+import com.example.danil.androidcourses.textviewandscrollview.TextVieActivity;
 import com.example.danil.androidcourses.firstapp.FirstAppActivity;
 
 public class HomeActivity extends Activity{
@@ -20,6 +20,12 @@ public class HomeActivity extends Activity{
 
     public void onTask1Click(View view) {
         Intent intent = new Intent(this, FirstAppActivity.class);
+        startActivity(intent);
+    }
+
+
+    public void onTask2Click(View view) {
+        Intent intent = new Intent(this, TextVieActivity.class);
         startActivity(intent);
     }
 }
