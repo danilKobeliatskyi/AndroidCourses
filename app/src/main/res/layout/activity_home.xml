@@ -8,21 +8,18 @@
         android:id="@+id/btn_app_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_btn_task1"
-        android:onClick="onTask1Click"/>
+        android:text="@string/txt_btn_task1"/>
 
     <Button
         android:id="@+id/btn_app_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_btn_task2"
-        android:onClick="onTask2Click"/>
+        android:text="@string/txt_btn_task2"/>
 
     <Button
         android:id="@+id/btn_app_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_btn_task3"
-        android:onClick="onTask3Click"/>
+        android:text="@string/txt_btn_task3"/>
 
 </LinearLayout>
