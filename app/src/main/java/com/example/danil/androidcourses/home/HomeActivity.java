@@ -18,37 +18,30 @@ public class HomeActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Button btnTask1 = (Button)findViewById(R.id.btn_app_1);
-        btnTask1.setOnClickListener(new Click1());
+        btnTask1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, FirstAppActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button btnTask2 = (Button)findViewById(R.id.btn_app_2);
-        btnTask2.setOnClickListener(new Click2());
+        btnTask2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, TextVieActivity.class);
+                startActivity(intent);
+            }
+        });
+        
         Button btnTask3 = (Button)findViewById(R.id.btn_app_3);
-        btnTask3.setOnClickListener(new Click3());
-    }
-
-    private class Click1 implements View.OnClickListener{
-
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(HomeActivity.this, FirstAppActivity.class);
-            startActivity(intent);
-        }
-    }
-
-    private class Click2 implements View.OnClickListener{
-
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(HomeActivity.this, TextVieActivity.class);
-            startActivity(intent);
-        }
-    }
-
-    private class Click3 implements View.OnClickListener{
-
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(HomeActivity.this, ExplicitActivity.class);
-            startActivity(intent);
-        }
+        btnTask3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, ExplicitActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
