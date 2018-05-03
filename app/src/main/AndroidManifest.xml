@@ -19,8 +19,8 @@
 
         <activity android:name=".firstapp.FirstAppActivity" />
         <activity android:name=".textviewandscrollview.TextVieActivity" />
-        <activity android:name=".explicitIntent.ExplicitActivity" />
-        <activity android:name=".explicitIntent.Second" />
+        <activity android:name=".explicitintent.ExplicitActivity" />
+        <activity android:name=".explicitintent.Second" />
 
     </application>
 

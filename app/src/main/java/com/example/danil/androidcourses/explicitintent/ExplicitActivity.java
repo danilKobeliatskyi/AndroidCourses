@@ -1,4 +1,4 @@
-package com.example.danil.androidcourses.explicitIntent;
+package com.example.danil.androidcourses.explicitintent;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,15 +12,14 @@ import com.example.danil.androidcourses.R;
 public class ExplicitActivity extends Activity implements View.OnClickListener{
 
     public final static String KEY = "user";
-    EditText editText;
+    private EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_explicit_intent);
         editText = (EditText)findViewById(R.id.text_data);
-        Button button = (Button) findViewById(R.id.btn_next);
-        button.setOnClickListener(this);
+        ((Button) findViewById(R.id.btn_next)).setOnClickListener(this);
     }
 
     @Override

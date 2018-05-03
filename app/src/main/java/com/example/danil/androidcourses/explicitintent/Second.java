@@ -1,4 +1,4 @@
-package com.example.danil.androidcourses.explicitIntent;
+package com.example.danil.androidcourses.explicitintent;
 
 import android.app.Activity;
 import android.os.Bundle;
