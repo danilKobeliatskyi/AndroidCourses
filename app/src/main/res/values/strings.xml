@@ -1,16 +1,30 @@
 <resources>
     <string name="app_name">AndroidCourses</string>
-    <string name="txt_btn_task1">tasck1</string>
+
+    <string name="txt_btn_task1">task 1</string>
+    <string name="txt_btn_task2">task 2</string>
+    <string name="txt_btn_task3">task 3</string>
+    <string name="txt_btn_next">Next</string>
+
     <string name="text_title">UI and Events</string>
+    <string name="text_title_text_view">TextView with ScrollView</string>
+    <string name="text_title_explicit">Explicit Intent</string>
+
     <string name="text_changed_text">Your Text</string>
+
     <string name="btn_change_1">Change 1</string>
     <string name="btn_change_2">Change 2</string>
+
     <string name="txt_btn_afterclick1">You clicked button 1</string>
     <string name="txt_btn_afterclick2">You clicked button 2</string>
-    <string name="text_title_text_view">TextView with ScrollView</string>
+
     <string name="paragraf">Defense News and Washington D.C. CBS affiliate WUSA 9 created a weekly TV program called This Week in Defense News with Vago Muradian,
         which first aired on March 2, 2008. The show centers on international defense and military issues. It initially aired on ABC 7 WJLA and the Armed Forces Network.
         On April 3, 2017, Sightline Media Group announced the show would move to WETA-TV and be called Defense News Weekly. Tony Lombardo,
         executive editor of Defense News’ partner brand, Military Times, was announced as the show's co-host with Jill Aitoro.</string>
-    <string name="txt_btn_task2">task2</string>
+
+    <string name="text_second_activity">Second Activity</string>
+    <string name="text_second_bacground">Enter your Data</string>
+    <string name="text_second_empty">You forgot put the data</string>
+
 </resources>
