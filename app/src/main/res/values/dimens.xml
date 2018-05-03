@@ -10,4 +10,8 @@
     <dimen name="text_size">30sp</dimen>
     <dimen name="text_size_title_text_view">30sp</dimen>
     <dimen name="text_scroll_size">24sp</dimen>
+    <dimen name="text_size_title_explicit">24sp</dimen>
+    <dimen name="text_second_title">30sp</dimen>
+
+    
 </resources>

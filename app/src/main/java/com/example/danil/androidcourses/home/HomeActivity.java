@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.example.danil.androidcourses.R;
+import com.example.danil.androidcourses.explicitIntent.ExplicitActivity;
 import com.example.danil.androidcourses.textviewandscrollview.TextVieActivity;
 import com.example.danil.androidcourses.firstapp.FirstAppActivity;
 
@@ -26,6 +27,11 @@ public class HomeActivity extends Activity{
 
     public void onTask2Click(View view) {
         Intent intent = new Intent(this, TextVieActivity.class);
+        startActivity(intent);
+    }
+
+    public void onTask3Click(View view) {
+        Intent intent = new Intent(this, ExplicitActivity.class);
         startActivity(intent);
     }
 }
