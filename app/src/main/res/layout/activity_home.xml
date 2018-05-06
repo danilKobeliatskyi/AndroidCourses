@@ -8,18 +8,28 @@
         android:id="@+id/btn_app_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_btn_task1"/>
+        android:text="@string/txt_btn_task1"
+        android:layout_margin="@dimen/margin_btn_task"/>
 
     <Button
         android:id="@+id/btn_app_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_btn_task2"/>
+        android:text="@string/txt_btn_task2"
+        android:layout_margin="@dimen/margin_btn_task"/>
 
     <Button
         android:id="@+id/btn_app_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_btn_task3"/>
+        android:text="@string/txt_btn_task3"
+        android:layout_margin="@dimen/margin_btn_task"/>
+
+    <Button
+        android:id="@+id/btn_app_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn_task4"
+        android:layout_margin="@dimen/margin_btn_task"/>
 
 </LinearLayout>

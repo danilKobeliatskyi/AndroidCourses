@@ -4,6 +4,7 @@
     <dimen name="height_scroll">200dp</dimen>
 
     <dimen name="margin_btn">25dp</dimen>
+    <dimen name="margin_btn_task">10dp</dimen>
     <dimen name="margin_btn_start">146dp</dimen>
     <dimen name="margin_scroll_top">40dp</dimen>
 
