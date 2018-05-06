@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.danil.androidcourses.R;
 import com.example.danil.androidcourses.explicitintent.ExplicitActivity;
+import com.example.danil.androidcourses.implicitintent.ImplicitActivity;
 import com.example.danil.androidcourses.textviewandscrollview.TextVieActivity;
 import com.example.danil.androidcourses.firstapp.FirstAppActivity;
 
@@ -17,6 +18,7 @@ public class HomeActivity extends Activity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         Button btnTask1 = (Button)findViewById(R.id.btn_app_1);
         btnTask1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +42,15 @@ public class HomeActivity extends Activity{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, ExplicitActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnTask4 = (Button)findViewById(R.id.btn_app_4);
+        btnTask4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, ImplicitActivity.class);
                 startActivity(intent);
             }
         });

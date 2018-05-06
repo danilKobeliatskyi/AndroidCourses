@@ -4,11 +4,13 @@
     <string name="txt_btn_task1">task 1</string>
     <string name="txt_btn_task2">task 2</string>
     <string name="txt_btn_task3">task 3</string>
+    <string name="txt_btn_task4">task 4</string>
     <string name="txt_btn_next">Next</string>
 
     <string name="text_title">UI and Events</string>
     <string name="text_title_text_view">TextView with ScrollView</string>
     <string name="text_title_explicit">Explicit Intent</string>
+    <string name="text_title_implicit">Implicit Intent</string>
 
     <string name="text_changed_text">Your Text</string>
 
@@ -17,6 +19,10 @@
 
     <string name="txt_btn_afterclick1">You clicked button 1</string>
     <string name="txt_btn_afterclick2">You clicked button 2</string>
+
+    <string name="txt_btn_web">WEB</string>
+    <string name="txt_btn_call">CALL</string>
+    <string name="txt_btn_map">MAP</string>
 
     <string name="paragraf">Defense News and Washington D.C. CBS affiliate WUSA 9 created a weekly TV program called This Week in Defense News with Vago Muradian,
         which first aired on March 2, 2008. The show centers on international defense and military issues. It initially aired on ABC 7 WJLA and the Armed Forces Network.

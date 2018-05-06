@@ -16,12 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".firstapp.FirstAppActivity" />
         <activity android:name=".textviewandscrollview.TextVieActivity" />
         <activity android:name=".explicitintent.ExplicitActivity" />
         <activity android:name=".explicitintent.Second" />
-
+        <activity android:name=".implicitintent.ImplicitActivity"></activity>
     </application>
 
 </manifest>
